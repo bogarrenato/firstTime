@@ -1,0 +1,21 @@
+echo.> file1.txt  --> file 1.txt létrehozása
+git status --> kiírja h volt e már commit, vagy h all
+git add file1.txt --> hozzáadja a file1.txt-t
+git status -->leírja h még nem volt kommit, de van a fiel
+git log --> leírja h mikor volt és ki commitolt, meg a szamat
+git commit -m "added 3 lines to file1.txt" --> commitol
+git diff file1.txt --> megnézi mi a különbség a leszedett és a felrakott file között (milyen sor, ilyenek)
+git reset --hard 12eqwq23r41234234 --> ide állítjuk vissza a headert
+git reset --soft így pedig vissza megyünk
+
+
+BRANCHMARK
+vannak különbözo branchek: master branch, de egy másik branchba lehet vinni a featuret
+a másik branchba behúzom a master branchból a dolgokat közbe viszik a masterban a dolgokat
+aztán össze mergelik a new feature branchot  a master branchhal
+
+
+git branch new_feature --> létrehoz egy new_feature branchot
+git branch --> megmutatja az éppen aktuális branchet
+git checkout new_feature --> mostantól pedig ez lesz az aktív branch
+git branch --> újra megnézzük, h az van-e ot
